@@ -16,7 +16,8 @@ button{
     font-size: 1.1rem;
     border: 3px solid #23d997;
     padding: 1rem 2rem;
-    color: white;
+    color: #ffffff;
+    background: #1b1b1b;
     transition: all 0.5s ease;
     font-family: 'Inter',sans-serif;
     &:hover{
