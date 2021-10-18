@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+
 //images
 import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
@@ -10,6 +11,7 @@ import { motion } from "framer-motion";
 import { pageAnimation } from "../animation";
 import { fade, photoAnim, lineAnim, slider } from "../animation";
 import { useScroll } from "../components/useScroll";
+import ScrollTop from "../components/scrollTop";
 
 const OurWork = () => {
   const [element, controls] = useScroll();
@@ -54,6 +56,7 @@ const OurWork = () => {
           <img src={goodtimes} alt="good times couple" />
         </Link>
       </Movie>
+      <ScrollTop />
     </Work>
   );
 };
