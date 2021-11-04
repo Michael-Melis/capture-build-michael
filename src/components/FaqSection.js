@@ -15,7 +15,7 @@ const FaqSection = () => {
         Any Questions <span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
-        <Toggle title="How Do I Start">
+        <Toggle title="How do I start?">
           <div className="question">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -24,7 +24,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Dayly schedulle">
+        <Toggle title="Daily schedule">
           <div className="question">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>
@@ -33,7 +33,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Different payment metods">
+        <Toggle title="Different payment methods">
           <div className="question">
             <p>Lorem ipsum dolor sit amet.</p>
             <p>

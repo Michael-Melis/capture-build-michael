@@ -23,20 +23,17 @@ const ContactUs = () => {
       <div>
         <Hide>
           <Social variants={titleAnim}>
-            <Circle />
-            <h2>Send Us A Message</h2>
+            <h2>- Send us a message</h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnim}>
-            <Circle />
-            <h2>Send A Email </h2>
+            <h2>- Send an email </h2>
           </Social>
         </Hide>
         <Hide>
           <Social variants={titleAnim}>
-            <Circle />
-            <h2>Socials</h2>
+            <h2>- Socials</h2>
           </Social>
         </Hide>
       </div>

@@ -50,7 +50,7 @@ const OurWork = () => {
         animate={controls2}
         initial="hidden"
       >
-        <h2>goodtimes</h2>
+        <h2>Goodtimes</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/good-times">
           <img src={goodtimes} alt="good times couple" />
